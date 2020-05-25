@@ -20,6 +20,7 @@ void MainWindow::on_select_file_clicked()
     QString record_tree;
     print_tree(root, record_tree, 0, false);
     ui->scrollArea->setWidget(new QLabel(record_tree));
+    on_pushButton_clicked();
 }
 
 void MainWindow::on_delete_node_b_clicked()
@@ -29,6 +30,7 @@ void MainWindow::on_delete_node_b_clicked()
   QString record_tree;
   print_tree(root, record_tree, 0, false);
   ui->scrollArea->setWidget(new QLabel(record_tree));
+  on_pushButton_clicked();
 }
 
 void MainWindow::on_add_node_b_clicked()
@@ -38,6 +40,7 @@ void MainWindow::on_add_node_b_clicked()
     QString record_tree;
     print_tree(root, record_tree, 0, false);
     ui->scrollArea->setWidget(new QLabel(record_tree));
+    on_pushButton_clicked();
 }
 
 void MainWindow::on_actionHelp_triggered()
