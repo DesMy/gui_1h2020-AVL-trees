@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>doc/.DS_Store</file>
+        <file>doc/about.htm</file>
+        <file>doc/format.htm</file>
+        <file>doc/how_working.htm</file>
+        <file>doc/I.jpg</file>
+        <file>doc/index.htm</file>
+        <file>doc/logo.jpg</file>
+        <file>doc/image.jpg</file>
+    </qresource>
+</RCC>
